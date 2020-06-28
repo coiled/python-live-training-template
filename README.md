@@ -1,4 +1,4 @@
-# **Live training session name**<br/>by **Instructor**
+# **Big Data for Pythonistas**<br/>by **Hugo Bowne-Anderson**
 
 Live training sessions are designed to mimic the flow of how a real data scientist would address a problem or a task. As such, a session needs to have some “narrative” where learners are achieving stated learning objectives in the form of a real-life data science task or project. For example, a data visualization live session could be around analyzing a dataset and creating a report with a specific business objective in mind _(ex: analyzing and visualizing churn)_, a data cleaning live session could be about preparing a dataset for analysis etc ... 
 
@@ -14,22 +14,21 @@ This part of the 'Live training Spec' process is designed to help guide you thro
 
 > _Here's an example from the Python for Spreadsheeets Users live session_
 >
-> - Key considerations to take in when transitioning from spreadsheets to Python.
-> - The Data Scientist mindset and keys to success in transitioning to Python.
-> - How to import `.xlsx` and `.csv` files into Python using `pandas`.
-> - How to filter a DataFrame using `pandas`.
-> - How to create new columns out of your DataFrame for more interesting features.
-> - Perform exploratory analysis of a DataFrame in `pandas`.
-> - How to clean a DataFrame using `pandas` to make it ready for analysis.
-> - Apply common spreadsheets operations such as pivot tables and vlookups in Python using `pandas`.
-> - Create simple, interesting visualizations using `matplotlib`.
+> - How to think about scaling your data science to larger datasets, when it's necessary, and when it's not;
+> - Appreciating how scaling data science can be required for both (i) big data sets (this is RAM-bound) and (ii) big models (CPU-bound);
+> - Understanding the landscape of packages for scalable data science in Python (dask, dask-ml, rapids, pyspark, koalas);
+> - Moving from numpy and pandas data workflows for out-of-core computing with dask when your data doesn't fit in RAM;
+> - Doing machine learning at scale with scikit-learn and dask-ml.
 
 
 ### B. What technologies, packages, or functions will students use? Please be exhaustive.
 
 > - pandas
+> - numpy
 > - matplotlib
-> - seaborn
+> - scikit-learn
+> - dask
+> - dask-ml
 
 ### C. What terms or jargon will you define?
 
@@ -37,22 +36,24 @@ _Whether during your opening and closing talk or your live training, you might h
 
 > _Here's an example from the [Python for Spreadsheeets Users live session](https://www.datacamp.com/resources/webinars/live-training-python-for-spreadsheet-users)._
 > 
-> - Packages: Packages are pieces of software we can import to Python. Similar to how we download, install Excel on MacOs, we import pandas on Python. (You can find it at minute 6:30)
+> - Big data
+> - out-of-core computing
+> - scalable data science
+> - bursting to the cloud
 
 ### D. What mistakes or misconceptions do you expect? 
 
 _To help minimize the amount of Q&As and make your live training re-usable, list out some mistakes and misconceptions you think students might encounter along the way._
 
-> _Here's an example from the [Data Visualization in Python live session](https://www.datacamp.com/resources/webinars/data-visualization-in-python)_
-> 
-> - Anatomy of a matplotlib figure: When calling a matplotlib plot, a figure, axes and plot is being created behind the background. (You can find it at minute 11)
-> - As long as you do understand how plots work behind the scenes, you don't need to memorize syntax to customize your plot. 
+TBD (this will be easier to answer once I've developed more of the material)
 
 ### E. What datasets will you use? 
 
 Live training sessions are designed to walk students through something closer to a real-life data science workflow. Accordingly, the dataset needs to accommodate that user experience. 
 As a rule of thumb, your dataset should always answer yes to the following question: 
 > Is the dataset/problem I’m working on, something an industry data scientist/analyst could work on? 
+
+TBD.
 
 Check our [datasets to avoid](https://instructor-support.datacamp.com/en/articles/2360699-datasets-to-avoid) list. 
 
@@ -69,33 +70,38 @@ Terms like "beginner" and "expert" mean different things to different people, so
 
 - [ ] Data Consumer
 - [ ] Leader 
-- [ ] Data Analyst
-- [ ] Citizen Data Scientist
-- [ ] Data Scientist
-- [ ] Data Engineer
+- [x] Data Analyst
+- [x] Citizen Data Scientist
+- [x] Data Scientist
+- [x] Data Engineer
 - [ ] Database Administrator
-- [ ] Statistician
-- [ ] Machine Learning Scientist
-- [ ] Programmer
+- [x] Statistician
+- [x] Machine Learning Scientist
+- [x] Programmer
 - [ ] Other (please describe)
 
 ### What industries would this apply to?
 
 *List one or more industries that the content would be appropriate for.*
 
+Healthcare, finance, astronomy, biomedical imaging, genomics, retail.
+
 
 ### What level of expertise should learners have before beginning the live training?
 
 *List three or more examples of skills that you expect learners to have before beginning the live training*
 
-> - Can draw common plot types (scatter, bar, histogram) using matplotlib and interpret them
-> - Can run a linear regression, use it to make predictions, and interpret the coefficients.
-> - Can calculate grouped summary statistics using SELECT queries with GROUP BY clauses.
+> - It would help to know the basics of numpy, pandas, and scikit-learn.
+> - However, I have always found that the most important and beneficial prerequisite is a will to learn new things so if you have this quality, you'll definitely get something out of this live training!
 
 
 ## Step 3: Prerequisites
 
 List any prerequisite courses you think your live training could use from. This could be the live session’s companion course or a course you think students should take before the session. Prerequisites act as a guiding principle for your session and will set the topic framework, but you do not have to limit yourself in the live session to the syntax used in the prerequisite courses.
+
+> Introduction to Python
+> Intermediate Python
+> Supervised Learning with scikit-learn
 
 
 ## Step 4: Session Outline
