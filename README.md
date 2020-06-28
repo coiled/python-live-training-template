@@ -12,8 +12,6 @@ This part of the 'Live training Spec' process is designed to help guide you thro
 
 ### A. What problem(s) will students learn how to solve? (minimum of 5 problems)
 
-> _Here's an example from the Python for Spreadsheeets Users live session_
->
 > - How to think about scaling your data science to larger datasets, when it's necessary, and when it's not;
 > - Appreciating how scaling data science can be required for both (i) big data sets (this is RAM-bound) and (ii) big models (CPU-bound);
 > - Understanding the landscape of packages for scalable data science in Python (dask, dask-ml, rapids, pyspark, koalas);
@@ -34,8 +32,6 @@ This part of the 'Live training Spec' process is designed to help guide you thro
 
 _Whether during your opening and closing talk or your live training, you might have to define some terms and jargon to walk students through a problem you’re solving. Intuitive explanations using analogies are encouraged._
 
-> _Here's an example from the [Python for Spreadsheeets Users live session](https://www.datacamp.com/resources/webinars/live-training-python-for-spreadsheet-users)._
-> 
 > - Big data
 > - out-of-core computing
 > - scalable data science
