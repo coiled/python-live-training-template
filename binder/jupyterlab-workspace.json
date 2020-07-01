@@ -83,7 +83,7 @@
     },
     "notebook:NB-1-first-contact-distributed-data-science.ipynb": {
       "data": {
-        "path": "notebooks/NB-1-first-contact-distributed-data-science.ipynb",
+        "path": "NB-1-first-contact-distributed-data-science.ipynb",
         "factory": "Notebook"
       }
     }
