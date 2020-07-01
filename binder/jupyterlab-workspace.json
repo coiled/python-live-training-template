@@ -29,7 +29,7 @@
               "type": "tab-area",
               "currentIndex": 0,
               "widgets": [
-                "starting_notebook"
+                "notebook:NB-1-first-contact-distributed-data-science.ipynb"
               ]
             },
             {
@@ -59,7 +59,7 @@
           ]
         },
         "mode": "multiple-document",
-        "current": "starting_notebook"
+        "current": "notebook:NB-1-first-contact-distributed-data-science.ipynb"
       },
       "left": {
         "collapsed": false,
@@ -81,7 +81,7 @@
       "url": "DASK_DASHBOARD_URL",
       "cluster": ""
     },
-    "starting_notebook": {
+    "notebook:NB-1-first-contact-distributed-data-science.ipynb": {
       "data": {
         "path": "notebooks/NB-1-first-contact-distributed-data-science.ipynb",
         "factory": "Notebook"
